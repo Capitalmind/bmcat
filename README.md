@@ -88,11 +88,3 @@ Contributions are welcome! Please open an issue or submit a pull request on GitH
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
-For questions or comments, please contact [your email].
-
-less
-Copy code
-
-Replace placeholders like `https://github.com/yourusername/url-databasing.git` and `[your email]` with your actual repository URL and contact email. Copy and paste the above markdown into your GitHub repository's README file.
