@@ -2,7 +2,7 @@
 Bookmark Cataloguing
 # URL Databasing Project
 
-This project provides a tool for fetching, summarizing, and storing information about web pages. It uses the Ollama library for generating summaries and tags, SQLAlchemy for database management, and BeautifulSoup for HTML parsing.
+This project provides a tool for fetching, summarizing, and storing information about web pages from bookmark URLs. It uses the Ollama library for generating summaries and tags, SQLAlchemy for database management, and BeautifulSoup for HTML parsing.
 
 ## Features
 
@@ -14,6 +14,12 @@ This project provides a tool for fetching, summarizing, and storing information 
 - Logs broken URLs to a separate file.
 
 ## Installation
+
+- ollama from https://ollama.com/
+- ollama pull 'model' from https://ollama.com/library/[models]
+- pip install ollama (to interact with ollama)
+- configure localhost:port in app.py to ensure they match local machine serving ollama, typically localhost:11434
+- export bookmarks from browser and strip urls with shell script included
 
 ### Prerequisites
 
